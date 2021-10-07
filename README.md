@@ -1,3 +1,3 @@
 # templite_frontend
 
-This is a website where people can go to download web templates,
+Creative and Flexible Website Templates.
