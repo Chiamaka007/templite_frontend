@@ -1,0 +1,28 @@
+.header p {
+  font-size: 38px;
+  font-family: "Rancho", cursive;
+}
+.lite-color {
+  color: #f74edc;
+}
+.header .main-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 38px;
+  color: #fcfcfc;
+  margin-top: 100px;
+  text-align: center;
+}
+.header {
+  background-image: linear-gradient(
+      180deg,
+      rgba(1, 0, 71, 0.79) 7.81%,
+      rgba(1, 0, 71, 0.79) 15.15%,
+      rgba(206, 76, 241, 0.567931) 99.99%,
+      rgba(213, 78, 247, 0.5609) 100%
+    ),
+    url("../images/headerimage.png");
+  background-size: cover;
+  width: 100%;
+  color: #fff;
+  height: 450px;
+}
