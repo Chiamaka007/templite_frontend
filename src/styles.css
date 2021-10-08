@@ -26,6 +26,7 @@
   color: #fff;
   height: 450px;
 }
+/* End Head */
 
 
   /* Navbar  */
@@ -40,7 +41,7 @@ main {
 }
 
 .navbar {
-    background: #ebeef3;
+    background: rgba(39, 70, 129, 0.03);
     box-shadow: 0 0 5px rgba(109, 170, 211, 0.433);
     margin-bottom: 2em;
 }
@@ -81,4 +82,105 @@ nav a:hover::after{
 
 nav a:hover {
   color: #010047;
+}
+/* End Navbar */
+
+
+/* Templates */
+.templates {
+  /* width: auto; */
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  align-items: center;
+  margin-left: 100px;
+
+}
+
+.template {
+  width: 280px;
+  height: 415px;
+  background: rgba(39, 70, 129, 0.03);
+  border-radius: 10px;
+  margin: 12px;
+  align-items: center;
+}
+
+.template-overview {
+  width: 200px;
+  height: 379px;
+  align-items: center;
+
+}
+
+.template-overview img {
+  width: 200.5px;
+  height: 275px;
+  margin-top: 20px;
+  margin-left: 38px;
+  margin-bottom: 20px;
+
+}
+
+.template-text {
+  /* width: 200.5px; */
+  /* height: 36.95px; */
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+
+}
+
+.template-text .template-name {
+  width: 65px;
+  height: 21px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #010047;
+  padding-left: 40px;
+  padding-right: 75px;
+
+}
+
+.template-text .template-owner {
+  width: 83px;
+  height: 18px;  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  color: rgba(19, 18, 18, 0.67);
+}
+
+.template-btn {
+  width: auto;
+  height: 34px;
+  display: flex;
+  flex-wrap: nowrap;
+
+}
+
+.template-btn .template-demo {
+  width: 59px;
+  height: 34px;
+  background: #274681;
+  border-radius: 5px;
+  color:white;
+  margin-left: 40px;
+}
+
+.template-btn .template-download {
+  width: 101px;
+  height: 34px;
+  background: rgba(42, 182, 114, 0.83);
+  border-radius: 5px;
+  color:white;
+  border-color: rgba(42, 182, 114, 0.83);
+  margin-left: 10px;
+
 }
