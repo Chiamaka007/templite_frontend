@@ -23,7 +23,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="stylesheet" href="src/css/styles.css" />
     <title>Templite</title>
   </head>
   <body>
@@ -36,6 +36,7 @@
           templates for any project
         </p>
       </div>
+      <!-- Navbar -->
       <div class="navbar">      
         <nav>
             <a href="#">All</a>
@@ -45,7 +46,21 @@
             <a href="#">React</a>
         </nav>
       </div>
-      
+      <!-- End Navbar -->
+
+
+      <!-- SearchBar -->
+      <form action="">
+      <div class='searchbar'>
+        <input type="text" id="searchInput" placeholder="Search..">
+        <button type="submit" id='submitsearch'>
+          <span>x</span>
+        </button>
+      </div>
+    </form>
+      <!-- End SearchBar -->
+
+
       <!-- Templates -->
       <div class="templates">
 
@@ -226,5 +241,6 @@
 
 
     </div>
+    <script src="src/script/script.js"></script>
   </body>
 </html>
