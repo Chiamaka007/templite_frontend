@@ -1,3 +1,7 @@
+body{
+  padding: 0;
+  margin: 0;
+}
 .header p {
   font-size: 38px;
   font-family: "Rancho", cursive;
@@ -5,11 +9,13 @@
 .lite-color {
   color: #f74edc;
 }
+.main-text {
+  margin-top: 100px;
+}
 .header .main-text {
   font-family: "Roboto", sans-serif;
   font-size: 38px;
   color: #fcfcfc;
-  margin-top: 100px;
   text-align: center;
 }
 .header {
@@ -25,6 +31,8 @@
   width: 100%;
   color: #fff;
   height: 450px;
+  margin:0;
+  padding:0;
 }
 /* End Head */
 
@@ -144,7 +152,7 @@ border: none;
   flex-wrap: wrap;
   margin-top: 30px;
   align-items: center;
-  margin-left: 100px;
+  margin-left: 33px;
 }
 
 .template {
@@ -190,7 +198,7 @@ border: none;
   line-height: 21px;
   color: #010047;
   padding-left: 40px;
-  padding-right: 75px;
+  padding-right: 15px;
 }
 
 .template-text .template-owner {
@@ -229,8 +237,11 @@ border: none;
   border-color: rgba(42, 182, 114, 0.83);
   margin-left: 10px;
 }
+/* End Templates */
 
-/* Foooter styles */
+
+
+/* Footer styles */
 .page-footer {
   margin-top: 100px;
   display: flex;
@@ -271,8 +282,5 @@ footer .socials {
   display: flex;
   justify-content: center;
 }
-
-/* End Templates */
-
 
 /* footer styles end */
