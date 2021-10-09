@@ -6,6 +6,7 @@ body{
   font-size: 38px;
   font-family: "Rancho", cursive;
   margin: 0;
+  padding: 10px;
 }
 .lite-color {
   color: #f74edc;
