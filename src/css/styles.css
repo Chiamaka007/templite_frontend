@@ -26,7 +26,7 @@ body{
       rgba(206, 76, 241, 0.567931) 99.99%,
       rgba(213, 78, 247, 0.5609) 100%
     ),
-    url("../images/headerimage.png");
+    url("../../images/headerimage.png");
   background-size: cover;
   width: 100%;
   color: #fff;
@@ -110,27 +110,25 @@ input:focus {
 margin-left: -82px;
 padding: 5px;
 cursor: pointer;
-padding-left: 10px;
+padding-left: 5px;
 padding-right: 8px; 
 padding-top: 4px;
 display: none;
+margin-right:110px;
+border: none;
 background: #FFFFFF;
 box-shadow: 5px 6px 12px rgba(176, 176, 176, 0.25);
 border-radius: 40px;
-margin-right:110px;
-border: none;
 
 }
 
 #searchInput {
-    width: 100%;
-
+    width: 452px;
     border: 1px solid #000;
     border-radius: 30px;
     font-size: 16px;
     background-color: white;
-    background-image:url('https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/search-24.png');
-
+    background-image:url('../../images/icons/search.png');
     background-position: 10px 7px;
     background-repeat: no-repeat;
     padding: 8px 20px 8px 40px;
