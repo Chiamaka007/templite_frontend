@@ -125,6 +125,10 @@ nav a:hover {
   line-height: 25px;
   color: #A9A9A9;
 
+}
+
+.search-input:focus {
+  outline: none;
 
 }
 
