@@ -5,18 +5,18 @@ body{
 .header p {
   font-size: 38px;
   font-family: "Rancho", cursive;
+  margin: 0;
 }
 .lite-color {
   color: #f74edc;
 }
-.main-text {
-  margin-top: 100px;
-}
+
 .header .main-text {
   font-family: "Roboto", sans-serif;
   font-size: 38px;
   color: #fcfcfc;
   text-align: center;
+  margin-top: 120px;
 }
 .header {
   background-image: linear-gradient(
