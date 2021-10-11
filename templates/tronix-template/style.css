@@ -71,19 +71,19 @@ hr {
 }
 
 .image-1 {
-	background-image: url("./img/img1.jpeg");
+	background-image: url("./img/2.jpg");
 }
 
 .image-2 {
-	background-image: url("./img/img2.jpeg");
+	background-image: url("./img/1.jpg");
 }
 
 .image-3 {
-	background-image: url("./img/img4.jpeg");
+	background-image: url("./img/4.jpg");
 }
 
 .image-4 {
-	background-image: url("./img/img3.jpeg");
+	background-image: url("./img/hero-bg.jpg");
 }
 
 section h3.title {
