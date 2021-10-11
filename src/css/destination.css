@@ -1,0 +1,20 @@
+header {
+    background-image: url("../../images/Templates/Travel-Destination1.jpeg");
+    height: 800px;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    position: relative;
+    top: 270px;
+    color: antiquewhite;
+    font-size: 40px;
+}
+.button {
+    text-align: center;
+    position: relative;
+    top: 280px;
+    border-radius: 20px;
+
+
+}
