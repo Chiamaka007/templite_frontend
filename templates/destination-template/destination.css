@@ -1,0 +1,44 @@
+header {
+  background-image: url("./img/headerimage.jpeg");
+  background-size: cover;
+  height: 800px;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+  position: relative;
+  top: 270px;
+  color: antiquewhite;
+  font-size: 40px;
+}
+.button {
+  text-align: center;
+  position: relative;
+  top: 280px;
+  border-radius: 20px;
+}
+.img-vacation {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+footer p {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+.footer {
+  margin-top: 20px;
+  background-color: #3d454e;
+  padding: 20px;
+}
+footer .img-socials {
+  margin: 15px;
+}
+footer .socials {
+  display: flex;
+  justify-content: center;
+}
+.countries {
+  color: #3d454e;
+}
